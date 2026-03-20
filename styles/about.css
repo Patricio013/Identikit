@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d8f3dc;
+}
+
+#about {
+    background-color: #1b4332;
+    width: 1000px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Foto {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.info {
+    background-color: #95d5b2;
+    width: 500px;
+    max-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    text-align: left;
+    max-width: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
