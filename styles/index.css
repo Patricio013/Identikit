@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+section {
+    text-align: center;
+}
+
 body {
     background-color: #081c15;
     color: #d8f3dc;
@@ -29,6 +33,7 @@ blockquote {
 
 #interes {
     background-color: #1b4332;
+    padding-bottom: 20px;
 }
 
 #PatricioFoto {

@@ -7,6 +7,11 @@ body {
     background-color: #d8f3dc;
 }
 
+section {
+    text-align: center;
+    margin: 0 auto;
+}
+
 #about {
     background-color: #1b4332;
     width: 1000px;
@@ -43,4 +48,8 @@ body {
     max-width: 500px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.resaltar{
+    color: #52b788;
 }
