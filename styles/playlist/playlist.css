@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #081c15;
+}
+
+.aside{
+    display: inline-block;
+    width: 25%;
+    height: 80vh;
+    vertical-align: top;
+    background-color: #d9ed92;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.main{
+    display: inline-block;
+    width: 74.5%;
+    height: 80vh;
+    vertical-align: top;
+    padding-top: 20px;
+    background-image: url(../../images/fondoVaquero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aside ul {
+    text-align: center;
+}
+
+.aside li {
+    
+}
+
+.aside a{
+    text-decoration: none;
+    color: #386641;
+}
