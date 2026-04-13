@@ -6,4 +6,37 @@
 body {
     background-image: url(../../images/Pradera.png);
     background-size: cover;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    height: 80px;
+    width: auto;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    margin: 40px auto 0 auto;;
+}
+
+a img {
+    width: 250px;
+    height: auto;
+}
+
+.pasados {
+    background-color: #8B4513;
 }
