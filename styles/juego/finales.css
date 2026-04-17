@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../../images/Pradera.png);
+    background-size: cover;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gif-grande {
+    display: block;
+    margin: 0 auto 30px auto;
+    height: 180px;
+    width: auto;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #132a13;
+    padding: 15px 30px;
+    color: #ecf39e;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #5bba6f;
+}

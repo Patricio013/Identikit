@@ -4,74 +4,91 @@
 }
 
 body {
-    background-color: #d9ed92;
-    padding-bottom: 10px;
+    background-color: #132a13;
+    color: #ecf39e;
 }
 
 section {
     text-align: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td {
     text-align: center;
-    color: #b5e48c;
-    padding: 5px;
+    color: #ecf39e;
+    padding: 10px;
 }
 
 th {
-    color: #80b918;
+    color: #90a955;
+    padding: 15px;
+    font-size: 18px;
 }
 
 h2 {
-    font-size: 20px;
-    color: #aacc00;
+    font-size: 24px;
+    color: #ecf39e;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .tabla {
-    border-style: outset;
-    padding: 2px;
-    margin: 40px auto 0 auto;
-    border-color: #184e77;
-    background-color: #1a759f;
-    border-radius: 10px;
+    border-style: solid;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #4f772d;
+    background-color: #054a29;
+    border-radius: 12px;
     border-collapse: collapse;
 }
 
 .titulo {
-    border-bottom-style: dashed;
+    border-bottom-style: solid;
     text-align: center;
-    font-size: 25px;
-    border-color: #184e77;
+    font-size: 26px;
+    border-color: #4f772d;
+    padding: 15px;
+    color: #ecf39e;
 }
 
 .BorderFoto {
     border-bottom-style: solid;
-    border-right-style: dotted;
-    border-color: #184e77;
+    border-right-style: solid;
+    border-color: #4f772d;
+    padding: 15px;
 }
 
 .BorderTexto {
     border-bottom-style: solid;
-    border-color: #184e77;
+    border-color: #4f772d;
+    padding: 15px;
 }
 
 .ImgLogo {
     max-height: 60px;
     width: auto;
+    border-radius: 8px;
 }
 
 .marco {
-    margin-top: 30px;
-    width: 325px;
-    padding: 5px;
-    background-color: #1a759f;
-    border-style: groove;
-    border-radius: 5px;
-    border-color: #184e77;
-    color: #b5e48c;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #054a29;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #31572c;
+    color: #ecf39e;
 }
 
-.resaltar{
-    color: #52b788;
+.resaltar {
+    color: #5bba6f;
+    font-weight: bold;
 }

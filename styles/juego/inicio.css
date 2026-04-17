@@ -10,28 +10,36 @@ body {
 
 section {
     text-align: center;
+    height: 70vh;
+    padding-top: 50px;
 }
 
 h1 {
-    margin-top: 50px;
-    color: #edede9;
-    margin-bottom: 30px;
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: #edede9;
-}
-
-div {
-    margin-top: 40px;
+    color: #f3ffd8;
+    font-size: 20px;
+    margin-bottom: 35px;
 }
 
 .boton {
-    border-style: groove;
-    border-color: #d6ccc2;
-    border-radius: 5px;
-    background-color: #d5bdaf;
-    color: #edede9;
-    font-size: 20px;
-    padding: 10px;
+    display: inline-block;
+    background-color: #132a13;
+    padding: 15px 40px;
+    color: #ecf39e;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #5bba6f;
+    margin-top: 20px;
+}
+
+.boton:hover {
+    background-color: #137547;
+    color: #ffffff;
 }

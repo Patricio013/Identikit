@@ -5,54 +5,93 @@
 
 section {
     text-align: center;
+    background-color: #054a29;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 85%;
+    max-width: 800px;
+    border: 2px solid #31572c;
+    border-radius: 12px;
 }
 
 body {
-    background-color: #081c15;
-    color: #d8f3dc;
+    background-color: #132a13;
+    color: #ecf39e;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ecf39e;
 }
 
 h2, h3 {
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #90a955;
 }
 
 p {
-    margin-top: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+a {
+    color: #5bba6f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #90a955;
+    text-decoration: underline;
 }
 
 blockquote {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #90a955;
+    font-size: 22px;
 }
 
 #interes {
-    background-color: #1b4332;
-    padding-bottom: 20px;
+    background-color: #054a29;
 }
 
 #PatricioFoto {
     height: auto;
-    width: 400px;
+    width: 350px;
+    border-radius: 20px;
+    border: 4px solid #137547;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .resaltar {
-    color: #52b788;
+    color: #5bba6f;
+    font-weight: bold;
 }
 
 .logos {
-    width: 40px;
+    width: 50px;
     height: auto;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #132a13;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #2a9134;
+}
+
+.logos:hover {
+    background-color: #2a9134;
 }
 
 .separador {
-    width: 400px;
-    height: 40px;
+    display: none;
 }

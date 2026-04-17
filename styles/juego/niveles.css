@@ -12,6 +12,7 @@ body {
 section {
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 div {
@@ -29,7 +30,8 @@ td {
 }
 
 table {
-    margin: 40px auto 0 auto;;
+    margin: 40px auto 0 auto;
+    ;
 }
 
 a img {
