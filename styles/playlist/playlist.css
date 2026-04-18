@@ -13,8 +13,8 @@ body{
     height: 80vh;
     vertical-align: top;
     background-color: #d9ed92;
-    padding-top: 20px;
     list-style-type: none;
+    text-align: center;
 }
 
 .main{
@@ -22,10 +22,15 @@ body{
     width: 74.5%;
     height: 80vh;
     vertical-align: top;
-    padding-top: 20px;
     background-image: url(../../images/fondoVaquero.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.aside img {
+    height: auto;
+    width: 250px;
+    margin-bottom: 20px;
 }
 
 .aside ul {
